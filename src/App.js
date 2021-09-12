@@ -66,7 +66,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Best Clubs In Europe Top Leagues</h1>
+      <h1>Best Clubs In Europe's Top Leagues</h1>
       <h2>Select a European Country</h2>
       <div>
         {league.map(function (league) {
