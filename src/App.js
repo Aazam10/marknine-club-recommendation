@@ -6,51 +6,60 @@ var leagueDictionary = {
     {
       name: "Chelsea",
       KnownAs: "Blues",
-      majorTrophies: "33"
+      majorTrophies: "33",
+      Rating: "5 / 5"
     },
     {
       name: "Manchester United",
       KnownAs: "Red Devils",
-      majorTrophies: "66"
+      majorTrophies: "66",
+      Rating: "4 / 5"
     },
     {
       name: "Liverpool",
       KnownAs: "The Reds",
-      majorTrophies: "65"
+      majorTrophies: "65",
+      Rating: "3.5 / 5"
     }
   ],
   Germany: [
     {
       name: "Bayern Munich",
       KnownAs: "Bavarians",
-      majorTrophies: "80"
+      majorTrophies: "80",
+      Rating: "5 / 5"
     },
     {
       name: "Borussia Dortmund",
       KnownAs: "Borussians",
-      majorTrophies: "22"
+      majorTrophies: "22",
+      Rating: "4 / 5"
     },
     {
       name: "Schalke 04",
       KnownAs: "The Royal Blues",
-      majorTrophies: "15"
+      majorTrophies: "15",
+      Rating: "3.5 / 5"
     }
   ],
   Spain: [
     {
       name: "Real Madrid",
       KnownAs: "Los Blancos",
-      majorTrophies: "95"
+      majorTrophies: "95",
+      Rating: "5 / 5"
     },
     {
       name: "Barcelona",
       KnownAs: "Blaugrana",
-      majorTrophies: "97"
+      majorTrophies: "97",
+      Rating: "4.5 / 5"
     },
     {
       name: "Atletico Madrid",
       KnownAs: "Colchoneros",
-      majorTrophies: "34"
+      majorTrophies: "34",
+      Rating: "4 / 5"
     }
   ]
 };
@@ -91,6 +100,9 @@ export default function App() {
               </li>
               <li className="list" key={club.majorTrophies}>
                 Trophies: {club.majorTrophies}
+              </li>
+              <li className="list" key={club.Rating}>
+                Rating: {club.Rating}
               </li>
             </ul>
           );
