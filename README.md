@@ -1,2 +1,3 @@
 # marknine-club-recommendation
-Created with CodeSandbox
+
+This app helps you in selecting a top european club to support.Made using React js.
